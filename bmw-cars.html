@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BMW Cars Showcase</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+
+    header, footer {
+      background: #007bff;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .car-logo {
+      text-align: center;
+      padding: 30px;
+      background-color: #f2f2f2;
+    }
+
+    .car-logo .logo-img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    .car-logo h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #007bff;
+    }
+
+    .car-logo p {
+      font-size: 16px;
+      max-width: 700px;
+      margin: auto;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .car-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      padding: 40px;
+    }
+
+    .car-card {
+      background: white;
+      width: 280px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .car-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .car-card h3 {
+      margin: 15px 0 10px;
+      font-size: 20px;
+      color: #007bff;
+    }
+
+    .car-card p {
+      font-size: 14px;
+      padding: 0 15px 15px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>BMW Car Collection</h1>
+  <p>Explore modified BMW beauties</p>
+</header>
+
+<!-- Car Logo Section -->
+<section class="car-logo">
+  <img src="images/bmw-logo.png" alt="BMW Logo" class="logo-img">
+  <h2>About BMW</h2>
+  <p>BMW (Bayerische Motoren Werke AG) is a German multinational company known for producing high-performance luxury vehicles and motorcycles. It is one of the world's leading premium automobile brands, blending innovation with performance.</p>
+</section>
+
+<!-- Car Gallery Section -->
+<section class="car-gallery">
+  <div class="car-card">
+    <img src="images/bmw1.jpg" alt="BMW M4">
+    <h3>BMW M4 Coupe</h3>
+    <p>Lowered suspension, blacked-out grille, and custom wheels.</p>
+  </div>
+  <div class="car-card">
+    <img src="images/bmw2.jpg" alt="BMW i8">
+    <h3>BMW i8 Hybrid</h3>
+    <p>Scissor doors, neon underglow, and custom paint wrap.</p>
+  </div>
+  <div class="car-card">
+    <img src="images/bmw3.jpg" alt="BMW M5">
+    <h3>BMW M5 Sports</h3>
+    <p>Tinted windows, carbon fiber hood, stage-2 turbo tune.</p>
+  </div>
+  <div class="car-card">
+    <img src="images/bmw4.jpg" alt="BMW 3 Series">
+    <h3>BMW 3 Series</h3>
+    <p>Wide-body kit, black matte wrap, red brake calipers.</p>
+  </div>
+  <div class="car-card">
+    <img src="images/bmw5.jpg" alt="BMW X5">
+    <h3>BMW X5 SUV</h3>
+    <p>Off-road wheels, roof rack, and high-performance exhaust.</p>
+  </div>
+  <div class="car-card">
+    <img src="images/bmw6.jpg" alt="BMW Z4">
+    <h3>BMW Z4 Roadster</h3>
+    <p>Convertible, lowered springs, and chrome finish alloys.</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 BMW OOP's Project | Car Showcase</p>
+</footer>
+
+</body>
+</html>
